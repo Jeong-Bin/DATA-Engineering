@@ -19,3 +19,12 @@ https://blog.naver.com/tt2t2am1118/222375766039
 67p(44쪽) 
 - 윈도우에서는 권한 때문인지 vi /System32 ~ 편집이 안 됨.
   그치만 my-kafka 매핑은 필수가 아닌 듯하니 이후에 my-kafka 나오면 aws ip인 13.209.3.113을 그대로 쓰도록 하자.
+
+103p(80쪽)
+- 원본에 적혀있는
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+  는 지워도 될 듯..?
+- gradle 버전7 에서 complie를 사용하는 경우 
+  "Could not find method compile() for arguments" 에러가 발생할 수 있다.
+  complie 대신 implementation 이용
