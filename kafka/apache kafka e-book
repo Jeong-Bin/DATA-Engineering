@@ -6,21 +6,22 @@
 <아파치 카프카>
 윈도우 cmd는 되도록 우클릭 - 관리자 권한으로 실행하자
 
-65p(42쪽)
+65p(책 42쪽)
 - WSL 설치하기 : 윈도우 검색창에서 Microsoft store 검색
 - Linux 혹은 Ubuntu 검색 및 다운로드
 <Ubuntu에 java 설치>
 https://blog.naver.com/tt2t2am1118/222375766039
 
-66p(43쪽)
+66p(책 43쪽)
 - 윈도우에서는 ls 대신 dir을 쓴다.
   ls를 쓰고 싶으면 doskey ls = dir 을 하면 되지만 cmd를 끄면 초기화된다.(초기화 안 되는 방법은 구글링하면 나오긴 함)
 
-67p(44쪽) 
+67p(책 44쪽) 
 - 윈도우에서는 권한 때문인지 vi /System32 ~ 편집이 안 됨.
   그치만 my-kafka 매핑은 필수가 아닌 듯하니 이후에 my-kafka 나오면 aws ip인 13.209.3.113을 그대로 쓰도록 하자.
+- 윈도우 Ubuntu 앱을 사용하면 경로 상관없이 바로 sudo vi /etc/hosts로 들어가 수정이 가능하다.
 
-103p(80쪽)
+103p(책 80쪽)
 - 원본에 적혀있는
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
