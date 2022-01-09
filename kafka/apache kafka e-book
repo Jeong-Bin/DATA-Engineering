@@ -6,6 +6,14 @@
 <아파치 카프카>
 윈도우 cmd는 되도록 우클릭 - 관리자 권한으로 실행하자
 
+64p(책 41쪽)
+- tail -f logs/server.log 실행시 ERROR Exiting Kafka. (kafka.server.KafkaServerStartable)
+  이런 에러가 있다면
+- config 경로에서 vi server.properties를 실행하여 log.dirs가 가리키는 경로를 확인, 복사한다.
+- cd 해당경로 복붙 해서 접근한다.
+- meta.properties 파일이 있다면 rm -fr meta.properties 로 삭제한다.
+- 다시 kafka 기본 경로로 돌아와서 bin/kafka-server-stop.sh 로 중지한 뒤 재시작한다.
+
 65p(책 42쪽)
 - WSL 설치하기 : 윈도우 검색창에서 Microsoft store 검색
 - Linux 혹은 Ubuntu 검색 및 다운로드
