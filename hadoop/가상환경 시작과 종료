@@ -1,0 +1,15 @@
+가상환경 시작과 종료
+-시작-
+1. VM으로 Server 시작
+2. PuTTY로 Sever 접속.
+  service cloudera-scm-server status로 상태 확인
+3. 잠시 기다리고 크롬으로 http://server01.hadoop.com:7180 접속
+4. Cluster ▼ 에서 재시작, Cloudera Manage ▼도 재시작
+zookeeper - Kafka - HDFS - Flume - YARN - HBase - Spark - Hive - Oozie - Hue
+
+-종료-
+1. 크롬으로 http://server01.hadoop.com:7180 접속
+2. Cluster ▼ 에서 중지, Cloudera Manage ▼도 중지
+3. PuTTY로 Sever 접속.
+  halt 입력
+4. VM 가서 잘 종료 됐는지 확인. 안 됐으면 여기서 종료
