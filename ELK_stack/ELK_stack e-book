@@ -13,3 +13,6 @@ window 환경에서는 git bash 활용
 
 322p(책 320쪽)
 - Aggregation Based를 선택하면 Vertical Bar와 같은 다양한 그래프들을 사용할 수 있음
+
+394p(책 392쪽)
+- 인덱스 패턴 : Management > Stack Management > Kibana > Index Patterns
