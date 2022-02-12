@@ -27,3 +27,6 @@ window 환경에서는 git bash 활용
   만약 '사용'이 아니라면 컴퓨터 BIOS에 접속해 Virtualization Technology의 disable를 enable로 바꾼다.
   (단, 삼성컴퓨터윈도우 10 이상의 경우 BIOS 조작법을 모르겠다;;;)
 - 아니면 아예 VM ware를 사용하면 64비트로 설치가 가능하다.
+
+전자책 471p (종이책 469p)
+-  VM ware를 사용할경우 Full name을 es-vm, user name을 es로 한다.
