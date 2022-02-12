@@ -19,3 +19,11 @@ window 환경에서는 git bash 활용
 
 438p(책 436쪽)
 - 리스트 11.4에 url 밑에 attribution: "INRAP" 이 빠졌음. 
+
+전자책 467p (종이책 465p)
+- Virtual Box에서 ubuntu 64비트 없이 32비트만 있을 수도 있다.
+- 제어판 > 프로그램 > Windows 기능 켜기/끄기 > Hyper-V 가 체크되어있다면 체크 해제하고,
+- 작업관리자(Ctrl + Shift + ESC) > 성능 에서 '가상화'가 '사용'으로 되어있는지 확인한다. 
+  만약 '사용'이 아니라면 컴퓨터 BIOS에 접속해 Virtualization Technology의 disable를 enable로 바꾼다.
+  (단, 삼성컴퓨터윈도우 10 이상의 경우 BIOS 조작법을 모르겠다;;;)
+- 아니면 아예 VM ware를 사용하면 64비트로 설치가 가능하다.
