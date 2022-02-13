@@ -1,0 +1,43 @@
+
+
+<클라우데라 메니저>
+http://server01.hadoop.com:7180/cmf/login
+아이디 : admin
+
+<PuTTY> Server01/02
+아이디 : root
+비번 : adminuser
+
+<파일질라>
+호스트 : server02.hadoop.com
+사용자명 : root
+비밀번호 : adminuser
+포트 : 22
+
+<하둡 전체 관리자 화면> 
+http://server01.hadoop.com:9870
+CM - HDFS - 상태요약(DataNode) - DataNode 웹 UI
+
+<리소스 매니저 관리자 화면>
+http://server01.hadoop.com:8088/cluster
+CM - YARN - 웹 UI - ResourceManager 웹 UI
+
+<잡(Job) 히스토리 관리자 화면>
+http://server01.hadoop.com:19888/jobhistory
+CM - YARN - 웹 UI - HistoryServer 웹 UI
+
+<스톰 UI>
+http://server01.hadoop.com:16010
+
+<스파크 잡 히스토리 서버>
+http://server02.hadoop.com:8088
+
+<스파크 잡 히스토리 서버>
+http://server02.hadoop.com:18088
+
+<휴 UI>
+http://server02.hadoop.com:8888
+CM - Hue - 웹 UI
+
+<제플린>
+http://server02.hadoop.com:8081
